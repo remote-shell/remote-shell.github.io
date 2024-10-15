@@ -1,5 +1,3 @@
-# rmsh (Remote Shell)
-
 **rmsh** is a remote shell application that allows you to execute commands on a remote server. It features a server and client architecture for easy management and command execution.
 
 ## Features
