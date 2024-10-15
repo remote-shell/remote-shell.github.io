@@ -37,25 +37,25 @@ pip install flask
 
 ### Starting the Server
 
-After installation, you can start the server using:
+After installation, you can start the server using: (it's in PATH)
 
 ```bash
-python server.py
+python rmsh-server
 ```
 
 ### Running the Client
 
-To connect to the server, run:
+To connect to the server, run: (it's in PATH)
 
 ```bash
-python client.py
+python rmsh-client
 ```
 
 You will be prompted for your username and password.
 
 ### Admin Panel
 
-Access the web-based admin panel by navigating to `http://yourdomain:8081` in your web browser. Here you can manage users and view command logs.
+Access the web-based admin panel by navigating to `http://localhost:8081` in your web browser. Here you can manage users and view command logs.
 
 ## Configuration
 
