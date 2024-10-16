@@ -22,22 +22,26 @@ pip install flask
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rmsh.git
-   cd rmsh
+   git clone https://github.com/remote-shell/installer.git
+   cd installer
    ```
 2. Run the installer script for the server:
    ```bash
-   bash installer_server.sh
+   ./installer_server.sh
    ```
 3. Run the installer script for the client:
    ```bash
-   bash installer_client.sh
+   ./installer_client.sh
+   ```
+4. Or install all at once:
+   ```bash
+   ./installer_all.sh
    ```
 ## Usage
 
 ### Starting the Server
 
-After installation, you can start the server using: (it's in PATH)
+After installation, you can start the server using:
 
 ```bash
 python rmsh-server
@@ -45,13 +49,13 @@ python rmsh-server
 
 ### Running the Client
 
-To connect to the server, run: (it's in PATH)
+To connect to the server, run:
 
 ```bash
-python rmsh-client
+python rmsh
 ```
 
-You will be prompted for your username and password.
+You will be prompted for your username and password. (if the security level uac-p is enabled)
 
 ### Admin Panel
 
